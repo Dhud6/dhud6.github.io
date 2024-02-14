@@ -24,13 +24,13 @@
   --cyan: #8be9fd;
   --white: #383a58;
   --gray: #79A9F5;
-  --gray-dark: #282a36;
+  --gray-dark: #f8f8f5;
   
   --primary: #8be9fd;
   --secondary: #79A9F5;
   --success: #50fa7b;
   --info: #bd93f9;
-  --warning: #f1fa8c;
+  --warning: #ffb86c;
   --danger: #ff5555;
   --light: #383a58;
   --dark: #282a36;
@@ -5685,9 +5685,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-primary {
-  color: #853f2d;
-  background-color: #ffe4dd;
-  border-color: #ffdad0;
+  color: var(--white);
+  background-color: var(--primary);
+  border-color: var(--white);
 }
 
 .alert-primary hr {
@@ -5699,9 +5699,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-secondary {
-  color: #383d41;
-  background-color: #e2e3e5;
-  border-color: #d6d8db;
+  color: var(--white);
+  background-color: var(--secondary);
+  border-color: var(--white);
 }
 
 .alert-secondary hr {
@@ -5713,9 +5713,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-success {
-  color: #556426;
-  background-color: #edf3db;
-  border-color: #e5eecc;
+  color: var(--white);
+  background-color: var(--success);
+  border-color: var(--white);
 }
 
 .alert-success hr {
@@ -5727,9 +5727,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-info {
-  color: #257074;
-  background-color: #daf7f9;
-  border-color: #cbf4f6;
+  color: var(--white);
+  background-color: var(--info);
+  border-color: var(--white);
 }
 
 .alert-info hr {
@@ -5741,9 +5741,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-warning {
-  color: #826c17;
-  background-color: #fef6d5;
-  border-color: #fef2c4;
+  color: var(--white);
+  background-color: var(--warning);
+  border-color: var(--white);
 }
 
 .alert-warning hr {
@@ -5755,9 +5755,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-danger {
-  color: #81303a;
-  background-color: #fedee2;
-  border-color: #fdd1d7;
+  color: var(--white);
+  background-color: var(--danger);
+  border-color: var(--white);
 }
 
 .alert-danger hr {
@@ -5769,9 +5769,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-light {
-  color: #818182;
-  background-color: #fefefe;
-  border-color: #fdfdfe;
+  color: var(--white);
+  background-color: var(--light);
+  border-color: var(--white);
 }
 
 .alert-light hr {
@@ -5783,9 +5783,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-dark {
-  color: #1b1e21;
-  background-color: #d6d8d9;
-  border-color: #c6c8ca;
+  color: var(--gray-dark);
+  background-color: var(--dark);
+  border-color: var(--gray-dark);
 }
 
 .alert-dark hr {
