@@ -11410,7 +11410,7 @@ pre {
 }
 
 .progress {
-  background: #eaf0fc;
+  background: #5b5b5b;
   border-radius: 0.2rem;
   height: 3px;
   margin-bottom: 30px;
@@ -11440,7 +11440,7 @@ pre {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #bd93f9;
+  background: var(--gray-dark);
   box-shadow: 0 0 10px rgba(255, 122, 87, 0.5);
 }
 
